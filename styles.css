@@ -20,12 +20,12 @@ body {
 
 .nav>.nav-header>.nav-title {
   display: inline-block;
-  font-size: 22px;
+  font-size: 15px;
   color: #69b99d;
   padding: 10px 10px 10px 10px;
   /* margin-right: 49rem; */
   margin-left: 5rem;
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
 }
 
 .nav>.nav-btn {
@@ -48,9 +48,25 @@ body {
   color: #73788c;
 }
 
-.nav>.nav-links>a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+.nav>.nav-links>a:hover:before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  background: #69b99d;
+  width: 5px;
+  height: 10px;
+  border-radius: 100%;
+  left:calc(50% - 10px);
 }
+
+
+
+.nav-links a {
+  display: inline-block;
+  position: relative;
+}
+
+
 
 .nav>#nav-check {
   display: none;
@@ -169,6 +185,9 @@ body {
   font-weight: bold;
   border-radius: 50%;
 }
+.logo{
+  height: 20rem;
+}
 
 
 
@@ -198,12 +217,16 @@ body {
 
 #realestatebtn {
   background-color: #f8f9fe;
-  position: relative;
-  top: 1rem;
-  left: 2re;
-  height: 2rem;
-  color: #69b99d;
-  border: none;
+    position: relative;
+    top: 2rem;
+    left: 2re;
+    height: 2rem;
+    color: #69b99d;
+    border: none;
+    width: 9rem;
+}
+#realestatebtn:hover{
+  background-color:gray;
 }
 
 
@@ -661,6 +684,7 @@ color: #69b99d;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .opinion-details {
@@ -676,6 +700,7 @@ color: #69b99d;
 
 .opinion-detailsmore>h4 {
   color: #69b99d;
+  font-size: 1.2rem;
 }
 
 .opinion-detailsarrow {
@@ -685,7 +710,7 @@ color: #69b99d;
   margin-top: 1.4rem;
   background-color: #69b99d;
   color: white;
-  margin-right: 2rem;
+  margin-right: 6rem;
   width: 2rem;
   text-align: center;
   padding-top: 0.4rem;
@@ -930,8 +955,15 @@ height: 3rem;
 
 
   .opinion-detailsarrow {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   }
+
+  .opinion-details {
+    display: flex;
+    flex-direction: row;
+    padding-left: 6rem;
+    
+}
 
   .fifthpage {
     /* border: 1px solid; */
@@ -1001,18 +1033,20 @@ font-size: 2rem;
   /* margin-left: 1rem; */
 }
 .opinion {
-  margin-left: 2rem;
-  border: 1px solid;
-  margin-left: 0rem;
+  margin-left: 1rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 
 .detailcomment {
   border: 1px solid gray;
   width: 100%;
+}
+
+#realestatebtn{
+
+  visibility: hidden;
 }
 
 .comments {
