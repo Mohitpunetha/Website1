@@ -24,8 +24,8 @@ body {
   color: #69b99d;
   padding: 10px 10px 10px 10px;
   /* margin-right: 49rem; */
-  margin-left: 8rem;
-  ;
+  margin-left: 5rem;
+  margin-top: 0.5rem;
 }
 
 .nav>.nav-btn {
@@ -115,8 +115,13 @@ body {
 
   .nav>#nav-check:checked~.nav-links {
     height: calc(100vh - 50px);
-
+    z-index: 2;
     overflow-y: auto;
+  }
+
+
+  .nav>#nav-check:checked~.firstpage .buyhouse {
+    display: none;
   }
 
   .nav>.nav-header>.nav-title {
@@ -125,7 +130,7 @@ body {
     color: #69b99d;
     padding: 10px 10px 10px 10px;
     /* margin-right: 49rem; */
-    margin-left: 3rem;
+    margin-left: 0rem;
   }
 }
 
@@ -150,6 +155,19 @@ body {
   border: none;
   font-size: 1rem;
 
+}
+/* .logo{
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: #4ba586;
+  color: white;
+} */
+.logo span:first-child{
+  background-color: #68b89c;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 50%;
 }
 
 
@@ -395,7 +413,7 @@ color: #69b99d;
 
 .recommendationbutton {
 
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem 1rem 1rem 3rem;
 
 }
 
@@ -492,7 +510,7 @@ color: #69b99d;
   position: relative;
   margin-top: 8rem;
   height: 23rem;
-  margin-left: 1rem;
+  margin-left: -1rem;
 }
 
 .rating {
@@ -742,17 +760,35 @@ height: 3rem;
 }
 
 
+.footer-logo span:first-child{
+  background-color: #68b89c;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+.footer-logo{
+  margin-top: 1.7rem;
+  padding-bottom: 1rem;
+ 
+}
+#locationname{
+  margin-right: 4rem;
+  }
+
+
 
 @media screen and (max-width:450px) {
 
 
   .firstpagecontent {
-    /* position: relative; */
-    /* position: relative; */
-    /* border: 1px solid; */
-    /* width: 42rem; */
+    
     margin-left: 0rem;
+    text-align: center;
   }
+
+
+
 
   .firstpage {
     /* border: 1px solid; */
@@ -787,15 +823,17 @@ height: 3rem;
 
   }
 
-  .buyhouse {
-    border: 1px solid;
-    /* height: 6rem; */
-    width: 22rem;
-    /* margin-top: 0rem; */
+
+  #locationname{
+  margin-right: 4rem;
+  }
+
+  .buyhouse {  
+    width: 23.3rem;
     position: absolute;
     top: 44.1rem;
     left: 0.5rem;
-    /* display: flex; */
+    font-size: 0.8rem;
   }
 
   .arrow p {
@@ -842,6 +880,8 @@ height: 3rem;
 
   .recomendationimg img {
     width: 100%;
+
+    padding: 1rem 0rem 0rem 0rem
   }
 
   .ouradvante {
@@ -860,30 +900,32 @@ height: 3rem;
 }
 
   .recommendationbutton {
-    width: 17rem;
-    height: 3rem;
-    background-color: #fefeff;
-    border: 1px solid #68b89c;
-    color: #68b89c;
-    /* left: 4rem; */
-    margin-left: 2rem;
+    
+    margin-left: 3.5rem;
   }
 
   .whiteroom img {
 
     height: 23rem;
-    width: 28.2rem;
+    width: 26.2rem;
     left: 14rem;
     margin-left: -4rem;
 
   }
 
+ 
   .aminities {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin: 0rem 0rem 0rem 0rem;
   }
+
+
+  .allminities img {
+    height: 2rem;
+    margin-top: 2rem;
+}
 
 
 
@@ -914,9 +956,14 @@ font-size: 2rem;
 }
 
 
-.fifthpage h1 {
-  color: #054457;
-  font-size: 2rem;
+.fifthpagequestion h1 {
+ 
+    color: #054457;
+    font-size: 2rem;
+
+}
+.achievements h1{
+  font-size: 1.4rem;
 }
 .rating {
   text-align: center;
@@ -924,7 +971,7 @@ font-size: 2rem;
     border: 1px solid;
     bottom: 17rem;
     left: 2.2rem;
-    width: 7.2rem;
+    width: 8.2rem;
     height: 12rem;
     line-height: 1rem;
     background-color: white;
@@ -937,10 +984,11 @@ font-size: 2rem;
   display: flex;
   bottom: 3.6rem;
   width: 18.5rem;
-  left: 2.9rem;
+  left: 2.8rem;
   height: 3.4rem;
   background-color: white;
   justify-content: space-between;
+  /* margin-left: -11%; */
 }
 
 .whiteroom {
@@ -975,6 +1023,33 @@ font-size: 2rem;
   width: 100%;
   flex-direction: row;
 }
+
+.recomendationimg h2 {
+  line-height: 0rem;
+  margin-left: 2rem;
+}
+
+
+.recomendationimg > p{
+  margin-left: 2rem;
+}
+.cost p{
+  margin-right: 5rem;
+}
+.customer-testimonialbtn button{
+  margin-bottom: 1rem;
+}
+
+#mulihtitle {
+ 
+  margin-left: 4rem;
+  font-size: 1.2rem;
+}
+
+/* .recomendationimg p {
+  color: #69b99d;
+  margin-left: 2rem;
+} */
 
 
 
