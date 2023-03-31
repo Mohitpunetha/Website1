@@ -417,7 +417,17 @@ color: #69b99d;
 }
 
 .recomendationimg p {
+
   color: #73788c;
+    margin-left: 1rem;
+}
+
+.area p{
+  font-size: small;
+    width: 8rem;
+    /* font-size: 1rem; */
+    margin-top: 0.2rem;
+    margin-left: 1.1rem;
 }
 
 
@@ -430,18 +440,18 @@ color: #69b99d;
 
 .propertydetails {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
 }
 
 .recommendationbutton {
 
-  margin: 1rem 1rem 1rem 3rem;
+  margin: 1rem 0rem 1rem 1rem;
 
 }
 
 .recommendationbutton button {
-  width: 17rem;
+  width: 20rem;
   height: 3rem;
   background-color: #fefeff;
   border: 1px solid #68b89c;
@@ -456,19 +466,28 @@ color: #69b99d;
 
 .recomendationimg h2 {
   line-height: 0rem;
+  /* color: #73788c; */
+    margin-left: 1rem;
 }
 
 .cost p {
   color: #69b99d;
-  font-weight: bold;
+    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 .area {
   background-color: #f5f5f5;
+  margin-right: 5rem;
+  height: 2rem;
+  height: 1.9rem;
 }
 
 .forth-page {
   background-color: #f5f5f5;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 
 
 }
@@ -511,6 +530,7 @@ color: #69b99d;
 .allminities {
   width: 32.33%;
   margin: 0.5%;
+  padding-top: 2rem;
 }
 
 .allminities p {
@@ -927,6 +947,10 @@ height: 3rem;
   .recommendationbutton {
     
     margin-left: 3.5rem;
+  }
+
+  .recommendationbutton button{
+    margin-left: -2rem;
   }
 
   .whiteroom img {
