@@ -84,9 +84,6 @@ body {
 
 @media (max-width:600px) {
 
-  body{
-    width: 101%;
-  }
   .nav>.nav-btn {
     display: inline-block;
     position: absolute;
@@ -293,13 +290,12 @@ color: #69b99d;
 }
 
 .buyhouse {
-  /*  */
-  /* height: 6rem; */
-  width: 45rem;
-  /* margin-top: 0rem; */
-  position: absolute;
-  top: 24.5rem;
-  left: 5.8rem;
+      /* height: 6rem; */
+      width: 45rem;
+      /* margin-top: 0rem; */
+      position: absolute;
+      top: 25rem;
+      left: 6.3rem;
 
 
 }
@@ -448,6 +444,9 @@ color: #69b99d;
     margin-top: 0.2rem;
     margin-left: 1.1rem;
 }
+.area b{
+  color: black;
+}
 
 
 .recomendationimg img {
@@ -538,6 +537,11 @@ color: #69b99d;
   color: #69b99d;
   background-color: #f8f9fe;
   border: none;
+}
+
+.ouradvante button:hover{
+  background-color: #68b89c;
+  color: white;
 }
 
 .aminities {
@@ -747,6 +751,7 @@ color: #69b99d;
   width: 2rem;
   text-align: center;
   padding-top: 0.4rem;
+  box-shadow: 0px -1px 1rem #69b99d;
 }
 .discover-detailsmore>h4 {
   color: #69b99d;
@@ -811,6 +816,7 @@ color: #69b99d;
   width: 2rem;
   text-align: center;
   padding-top: 0.4rem;
+  box-shadow: 0px -1px 1rem #69b99d;
 }
 .comments{
   display: flex;
@@ -1097,7 +1103,7 @@ font-size: 0.8rem;
 
   .recommendationbutton {
     
-    margin-left: 3.5rem;
+    padding: 0rem 1rem 0rem 2rem;
   }
 
   .recommendationbutton button{
@@ -1185,6 +1191,9 @@ font-size: 2rem;
     line-height: 1rem;
     background-color: white;
     bottom: 15rem;
+}
+.peopleopinion h1{
+  padding-left: 1rem;
 }
 
 .achievements {
