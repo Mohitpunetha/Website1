@@ -52,7 +52,7 @@ body {
 .nav>.nav-links>a:hover:before {
   content: "";
   position: absolute;
-  top: 30px;
+  top: 33px;
   background: #69b99d;
   width: 5px;
   height: 10px;
