@@ -84,6 +84,10 @@ body {
 }
 
 @media (max-width:600px) {
+
+  /* body{
+    width: 101%;
+  } */
   .nav>.nav-btn {
     display: inline-block;
     position: absolute;
@@ -175,7 +179,7 @@ body {
 
 }
 /* .logo{
-  border: 1px solid;
+  
   border-radius: 50%;
   background-color: #4ba586;
   color: white;
@@ -242,13 +246,14 @@ body {
   flex-direction: column; */
   /* position: relative; */
   /* position: relative; */
-  /* border: 1px solid; */
+  /*  */
   /* width: 42rem; */
   margin-left: 6rem;
 }
 
 .firstpagecontent p {
   color: #73788c;
+  margin-top: -2rem;
 }
 
 .houseinfo {
@@ -267,7 +272,7 @@ body {
 
 
 .searchbutton {
-  /* border: 1px solid; */
+  /*  */
 
   /* display: flex; */
   align-self: center;
@@ -289,26 +294,26 @@ color: #69b99d;
 }
 
 .buyhouse {
-  /* border: 1px solid; */
+  /*  */
   /* height: 6rem; */
   width: 45rem;
   /* margin-top: 0rem; */
   position: absolute;
-  top: 24.9rem;
-  left: 6.5rem;
+  top: 24.5rem;
+  left: 5.8rem;
 
 
 }
 
 .buy-rent {
   display: flex;
-  /* border: 1px solid; */
+  /*  */
   text-align: center;
 
 }
 
 .buy {
-  /* border: 1px solid; */
+  /*  */
   width: 7.6rem;
   background-color: white;
   /* margin-bottom: 0rem; */
@@ -324,7 +329,7 @@ color: #69b99d;
   margin-left: 3rem;
   /* height: 1rem; */
   width: 4rem;
-  /* border: 1px solid; */
+  /*  */
   padding: 0.6rem;
 
 
@@ -336,7 +341,7 @@ color: #69b99d;
 
 .Location {
 
-  /* border: 1px solid; */
+  /*  */
   margin-left: 0.4rem;
   text-align: center;
   /* display: flex; */
@@ -358,12 +363,12 @@ color: #69b99d;
 .second-page {
   display: flex;
   /* flex-direction: row; */
-  /* border: 1px solid; */
+  /*  */
   flex-wrap: wrap;
 }
 
 .secondpagecontent {
-  /* border: 1px solid; */
+  /*  */
   margin-left: 6rem;
   line-height: normal;
 
@@ -544,8 +549,8 @@ color: #69b99d;
 }
 
 .whiteroom {
-  /* border: 1px solid; */
-  /* border: 1px solid; */
+  /*  */
+  /*  */
   /* width: 26rem; */
   margin-left: 0.3rem;
   /* padding: 2rem; */
@@ -558,10 +563,18 @@ color: #69b99d;
   margin-left: -1rem;
 }
 
+
+
+  input[type=checkbox] {
+    accent-color:#69b99d; 
+    color: white;
+  }
+
+
 .rating {
   text-align: center;
   position: absolute;
-  /* border: 1px solid; */
+  /*  */
   bottom: 17rem;
   left: 8.5rem;
   width: 9rem;
@@ -571,6 +584,7 @@ color: #69b99d;
   animation: blinker 2s linear infinite;
 
 }
+
 @keyframes blinker{
   50% {
  opacity: 0%;
@@ -579,7 +593,7 @@ color: #69b99d;
 
 /* .achievements{
   position: absolute;
-    border: 1px solid;
+    
     display: flex;
     flex-direction: row;
     bottom: 0rem;
@@ -589,7 +603,7 @@ color: #69b99d;
 
 .achievements {
   position: relative;
-  /* border: 1px solid; */
+  /*  */
   display: flex;
   bottom: 4.4rem;
   width: 23.3rem;
@@ -626,7 +640,7 @@ color: #69b99d;
 
 .fifthpagecontent {
   margin-top: 11rem;
-  /* border: 1px solid; */
+  /*  */
   padding: 0rem 0rem 0rem 4rem;
 }
 
@@ -640,7 +654,7 @@ color: #69b99d;
 }
 
 .fifthpage {
-  /* border: 1px solid; */
+  /*  */
   display: flex;
   flex-wrap: wrap;
   margin: 0rem 5rem 0rem 5rem;
@@ -660,16 +674,26 @@ color: #69b99d;
   width: 9rem;
 }
 
+.fifthpagecontent :first-child :hover{
+  background-color:#4ba586;
+  color:#f8f9fe ;
+}
+
 .allminities h3 {
   color: #054457;
 }
 
 .learnmore button {
-  background-color: #69b99d;
+  background-color:#4ba586;
   color: white;
   height: 3rem;
   width: 10rem;
 
+}
+.learnmore button:hover{
+  background-color: #f8f9fe;
+  color: #4ba586;
+  text-decoration:underline;
 }
 .sixth-page{
   padding-bottom: 2rem;
@@ -681,6 +705,32 @@ color: #69b99d;
 .detailcomment p{
  /* color: #73788c; */
  color:#000000;
+}
+.discover-details{
+  display: flex;
+  flex-direction: row;
+  margin-left: 32rem;
+}
+
+.discover-detailsmore{
+  float: right;
+  margin-right: 1rem;
+  align-self: center;
+}
+.discover-detailsarrow{
+  border-radius: 50%;
+  height: 2rem;
+  margin-top: 5.1rem;
+  background-color: #69b99d;
+  color: white;
+  margin-right: 6rem;
+  width: 2rem;
+  text-align: center;
+  padding-top: 0.4rem;
+}
+.discover-detailsmore>h4 {
+  color: #69b99d;
+  font-size: 1.2rem;
 }
 
 
@@ -694,6 +744,11 @@ color: #69b99d;
 
 }
 
+.customer-testimonialbtn  :hover{
+  background-color: #4ba586;
+  color: #f8f9fe;
+}
+
 .customer-testimonialbtn {
   margin-top: 4rem;
   margin-left: 6rem;
@@ -701,7 +756,7 @@ color: #69b99d;
 
 .opinion {
   margin-left: 2rem;
-  /* border: 1px solid; */
+  /*  */
   margin-left: 5rem;
   display: flex;
   flex-direction: row;
@@ -726,7 +781,7 @@ color: #69b99d;
 }
 
 .opinion-detailsarrow {
-  /* border: 1px solid; */
+  /*  */
   border-radius: 50%;
   height: 2rem;
   margin-top: 1.4rem;
@@ -764,6 +819,11 @@ height: 3rem;
   flex-direction: column;
   padding-left: 1rem;
 }
+.designation p{
+ 
+  color: #73788c;
+    font-size: 0.7rem;
+}
 
 .footer{
   display: flex;
@@ -777,10 +837,12 @@ height: 3rem;
   justify-content: space-between;
 }
 .allicons{
-  border: 1px solid;
+  
   border-color: white;
   border-radius: 50%;
   background-color: white;
+  height: 1.5rem;
+  width: 1.5rem;
  
 }
 
@@ -790,6 +852,13 @@ height: 3rem;
 .footer-title p{
   color: #73788c;
 }
+.footer-title a{
+  text-decoration: none;
+}
+.footer-title a :hover{
+  color: black;
+}
+
 #sendbtn {
   background-color: #4ba586;
   height: 3rem;
@@ -797,6 +866,7 @@ height: 3rem;
   color: white;
   border: none;
 }
+
 #email-detail{
   width: 15rem;
 }
@@ -827,18 +897,27 @@ height: 3rem;
 
 @media screen and (max-width:450px) {
 
-
+  /* body{
+    width: 101%;
+  } */
   .firstpagecontent {
     
     margin-left: 0rem;
     text-align: center;
+    /* margin-bottom: -11rem; */
+    margin-top: -9rem;
   }
+
+  .firstpagecontent p {
+    color: #73788c;
+    margin-top: 0rem;
+}
 
 
 
 
   .firstpage {
-    /* border: 1px solid; */
+    /*  */
     /* position: relative; */
     /* position: relative; */
     background-image: url(./assementpics/Bitmap.png);
@@ -864,11 +943,24 @@ height: 3rem;
 
   .allminities {
 
-    border: 1px solid;
+    
     width: 100%;
     text-align: center;
 
   }
+  .discover-details {
+   
+    margin-left: 7rem;
+    margin-top: -1rem;
+}
+
+
+.discover-detailsarrow {
+margin-top: 1.3rem;
+}
+
+
+
 
 
   .area {
@@ -882,13 +974,36 @@ height: 3rem;
   margin-right: 4rem;
   }
 
-  .buyhouse {  
-    width: 23.3rem;
-    position: absolute;
-    top: 44.1rem;
-    left: 0.5rem;
-    font-size: 0.8rem;
+   
+   .buyhouse {
+
+width: 100%;
+position:relative;
+top:42.1rem;
+
+left:0.5rem;
+
+font-size: 0.8rem;
+
+}
+
+.houseinfo {
+
+  display: flex;
+  
+  justify-content: space-between;
+  
+  background-color: white;
+  
+  padding-top:2rem;
+  
+  width: 96%;
+  
+  margin-left: 0%;
+  
   }
+
+  
 
   .arrow p {
     margin-left: 12rem;
@@ -897,10 +1012,11 @@ height: 3rem;
   }
 
   .secondpagecontent {
-    border: 1px solid;
+    
     margin-left: 0rem;
     /* line-height: normal; */
     width: 100%;
+    text-align: center;
   }
 
   .secondpagecontent h3 {
@@ -917,11 +1033,12 @@ height: 3rem;
 
   .recomendationimg {
     /* height: 19rem; */
-    border: 1px solid;
+    
     width: 100%;
     /* margin-left: 6rem; */
-    border: 1px solid;
+    
     margin: 0rem;
+    text-align: center;
 
   }
 
@@ -964,11 +1081,11 @@ height: 3rem;
 
   .whiteroom img {
 
-    height: 23rem;
-    width: 23rem;
+    height: 100%;
+    width: 100%;
     /* left: 14rem; */
     /* margin-left: 2.8rem; */
-    border: 1px solid;
+    
     object-fit: cover;
 
   }
@@ -1001,7 +1118,7 @@ height: 3rem;
 }
 
   .fifthpage {
-    /* border: 1px solid; */
+    /*  */
     display: flex;
     flex-wrap: wrap;
     margin: 0rem 1rem 0rem 1rem;
@@ -1015,7 +1132,7 @@ font-size: 2rem;
   .fifthpagecontent {
     
       margin-top: 4rem;
-      border: 1px solid;
+      
       padding: 0rem 0rem 0rem 0rem;
       align-items: center;
       text-align: center;
@@ -1035,7 +1152,7 @@ font-size: 2rem;
 .rating {
   text-align: center;
     position: absolute;
-    border: 1px solid;
+    
     bottom: 17rem;
     left: 2.2rem;
     width: 8.2rem;
@@ -1047,10 +1164,10 @@ font-size: 2rem;
 
 .achievements {
   position: relative;
-  border: 1px solid;
+  
   display: flex;
   bottom: 3.6rem;
-  width: 18.5rem;
+  width: 19.5rem;
   left: 1.8rem;
   height: 3.4rem;
   background-color: white;
@@ -1058,16 +1175,17 @@ font-size: 2rem;
 }
 
 .whiteroom {
-        /* padding: 0rem 1rem 0rem 1rem; */
-        top: 1rem;
-        margin-top: 11rem;
-        position: relative;
-        margin-top: 3.5rem;
-        height: 23rem;
-        /* margin-left: 1rem; */
-        /* left: -1.3rem; */
-        margin-left: 1.8rem;
-        right: 2rem;
+           /* padding: 0rem 1rem 0rem 1rem; */
+    top: 1rem;
+    margin-top: 11rem;
+    position: relative;
+    margin-top: 3.5rem;
+    height: 23rem;
+    /* margin-left: 1rem; */
+    /* left: -1.3rem; */
+    margin-left: 0rem;
+    right: 0rem;
+    width: 100%;
 }
 .opinion {
   margin-left: 1rem;
@@ -1097,12 +1215,12 @@ font-size: 2rem;
 
 .recomendationimg h2 {
   line-height: 0rem;
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 
 .recomendationimg > p{
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 .cost p{
   margin-right: 5rem;
@@ -1126,7 +1244,6 @@ font-size: 2rem;
   color: #69b99d;
   margin-left: 2rem;
 } */
-
-
-
 }
+
+
