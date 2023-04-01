@@ -4,6 +4,8 @@
 
 body {
   font-family: 'Dejavu Sans', Arial, Helvetica, sans-serif;
+  margin: 0%;
+  padding: 0%;
 }
 
 
@@ -869,6 +871,13 @@ height: 3rem;
   }
 
 
+  .area {
+    background-color: #f5f5f5;
+    margin-right: 5rem;
+    height: 2rem;
+    height: 1.9rem;
+}
+
   #locationname{
   margin-right: 4rem;
   }
@@ -956,9 +965,11 @@ height: 3rem;
   .whiteroom img {
 
     height: 23rem;
-    width: 26.2rem;
-    left: 14rem;
-    margin-left: -4rem;
+    width: 23rem;
+    /* left: 14rem; */
+    /* margin-left: 2.8rem; */
+    border: 1px solid;
+    object-fit: cover;
 
   }
 
@@ -1040,21 +1051,23 @@ font-size: 2rem;
   display: flex;
   bottom: 3.6rem;
   width: 18.5rem;
-  left: 2.8rem;
+  left: 1.8rem;
   height: 3.4rem;
   background-color: white;
-  justify-content: space-between;
-  /* margin-left: -11%; */
+  margin-left: 0%;
 }
 
 .whiteroom {
-  margin-left: 0.3rem;
-  top: 1rem;
-  margin-top: 11rem;
-  position: relative;
-  margin-top: 3.5rem;
-  height: 23rem;
-  /* margin-left: 1rem; */
+        /* padding: 0rem 1rem 0rem 1rem; */
+        top: 1rem;
+        margin-top: 11rem;
+        position: relative;
+        margin-top: 3.5rem;
+        height: 23rem;
+        /* margin-left: 1rem; */
+        /* left: -1.3rem; */
+        margin-left: 1.8rem;
+        right: 2rem;
 }
 .opinion {
   margin-left: 1rem;
@@ -1084,15 +1097,20 @@ font-size: 2rem;
 
 .recomendationimg h2 {
   line-height: 0rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 
 .recomendationimg > p{
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 .cost p{
   margin-right: 5rem;
+}
+
+.cost{
+
+  margin-left: 3rem;
 }
 .customer-testimonialbtn button{
   margin-bottom: 1rem;
