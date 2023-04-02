@@ -217,24 +217,23 @@ body {
 
 }
 
-#realestatebtn {
+#btn button{
   background-color: #f8f9fe;
-    position: relative;
-    top: 2rem;
-    left: 2re;
-    height: 2rem;
-    color: #69b99d;
-    border: none;
-    width: 9rem;
-}
-#realestatebtn:hover{
-  background-color:gray;
+  position: relative;
+  top: 2rem;
+  left: 0rem;
+  height: 2.1rem;
+  color: #69b99d;
+  border: none;
+  width: 8rem;
 }
 
 
-#realestatebtn :hover{
+
+
+#btn :hover{
   background-color:#69b99d ;
-  color:#f8f9fe;
+  color:white;
 }
 
 .firstpagecontent {
@@ -1204,6 +1203,7 @@ font-size: 2rem;
   display: flex;
   bottom: 3.6rem;
   width: 19.5rem;
+  /* width: 20.9rem; */
   left: 1.8rem;
   height: 3.4rem;
   background-color: white;
