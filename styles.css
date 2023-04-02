@@ -100,7 +100,7 @@ body {
 
   .nav>.nav-btn>label:hover,
   .nav #nav-check:checked~.nav-btn>label {
-    background-color: black;
+    background-color: beige;
   }
 
   .nav>.nav-btn>label>span {
@@ -122,10 +122,20 @@ body {
     left: 0px;
   }
 
+
+  .nav>.nav-links>a:hover:before{
+    display: none;
+  }
+
   .nav>.nav-links>a {
     display: block;
     width: 100%;
+    color: #69b99d;
   }
+
+  
+
+
 
   .nav>#nav-check:not(:checked)~.nav-links {
     height: 0px;
