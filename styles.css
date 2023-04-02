@@ -957,12 +957,10 @@ height: 3rem;
   }
 
   .firstpagecontent h3 {
-    /* font-size: 5vw;
-    word-break: 2rem; */
-
-    font-size: 7vw;
+    font-size: 5vw;
     word-break: 2rem;
-    margin-top: 1rem;
+
+  
     
   }
 
