@@ -271,6 +271,7 @@ body {
 
   /* display: flex; */
   align-self: center;
+  padding-right: 1rem;
 
 }
 
@@ -927,9 +928,7 @@ height: 3rem;
 
 @media screen and (max-width:450px) {
 
-  /* body{
-    width: 101%;
-  } */
+  
   .firstpagecontent {
     
     margin-left: 0rem;
@@ -947,9 +946,7 @@ height: 3rem;
 
 
   .firstpage {
-    /*  */
-    /* position: relative; */
-    /* position: relative; */
+   
     background-image: url(./assementpics/Bitmap.png);
     background-repeat: no-repeat;
     background-size: 23em 33em;
@@ -960,9 +957,13 @@ height: 3rem;
   }
 
   .firstpagecontent h3 {
-    font-size: 5vw;
+    /* font-size: 5vw;
+    word-break: 2rem; */
+
+    font-size: 7vw;
     word-break: 2rem;
-    /* width: 13rem; */
+    margin-top: 1rem;
+    
   }
 
   .searchbutton button {
@@ -1042,9 +1043,7 @@ font-size: 0.8rem;
   }
 
   .secondpagecontent {
-    
     margin-left: 0rem;
-    /* line-height: normal; */
     width: 100%;
     text-align: center;
   }
@@ -1052,7 +1051,7 @@ font-size: 0.8rem;
   .secondpagecontent h3 {
     font-size: 2.2rem;
     line-height: 2rem;
-    /* max-width: 50%; */
+    
   }
 
   .arrow p {
