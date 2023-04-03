@@ -1206,8 +1206,11 @@ font-size: 0.8rem;
     background-color: white;
     bottom: 15rem;
 }
-.peopleopinion h1{
+/* .peopleopinion h1{
   padding-left: 1rem;
+} */
+.peopleopinion{
+  padding: 0rem 1rem 0rem 1rem;
 }
 
 .achievements {
