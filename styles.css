@@ -5,6 +5,8 @@
 body {
   font-family: "DejaVu Sans";
  /*  */
+ padding: 0%;
+ margin: 0%;
 }
 
 
@@ -59,8 +61,12 @@ body {
   height: 10px;
   border-radius: 100%;
   left:calc(50% - 10px);
-  transform: scale(0.9);
+  
 
+
+}
+.nav-links :hover{
+  transform: translate(0rem,-0.5rem);
 }
 
 
@@ -1032,12 +1038,10 @@ margin-top: 1.3rem;
    
    .buyhouse {
 
-width: 100%;
+    width: 98%;                           
 position:relative;
 top:42.1rem;
-
 left:0.5rem;
-
 font-size: 0.8rem;
 
 }
