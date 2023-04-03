@@ -90,6 +90,9 @@ body {
   background-color:#69b99d;
   color: #f5f5f5;
 }
+#nav-muli{
+  font-weight: bold;
+}
 
 @media (max-width:600px) {
 
@@ -903,6 +906,11 @@ height: 3rem;
   width: 1.5rem;
  
 }
+.muli{
+  color:#4ba586;
+  font-weight: bold;
+}
+
 
 #mulihtitle{
   color: #4ba586;
@@ -1286,9 +1294,6 @@ font-size: 0.8rem;
 }
 
 
-}
-.muli{
-  color:#4ba586
 }
 
 
