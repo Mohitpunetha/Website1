@@ -379,6 +379,7 @@ color: #69b99d;
   /* flex-direction: row; */
   /*  */
   flex-wrap: wrap;
+  margin-top: 3rem;
 }
 
 .secondpagecontent {
@@ -428,6 +429,7 @@ color: #69b99d;
     justify-content: space-evenly;
     width: 88%;
     margin: auto;
+    margin-top: 2rem;
 }
 
 
