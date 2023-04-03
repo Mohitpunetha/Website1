@@ -916,6 +916,11 @@ height: 3rem;
   border: none;
 }
 
+#sendbtn:hover{
+  background-color: white;
+  color:#4ba586
+}
+
 #email-detail{
   width: 15rem;
   padding-left: 1rem;
@@ -1040,15 +1045,10 @@ font-size: 0.8rem;
 .houseinfo {
 
   display: flex;
-  
   justify-content: space-between;
-  
   background-color: white;
-  
   padding-top:2rem;
-  
   width: 96%;
-  
   margin-left: 0%;
   
   }
@@ -1080,11 +1080,7 @@ font-size: 0.8rem;
   }
 
   .recomendationimg {
-    /* height: 19rem; */
-    
-    width: 100%;
-    /* margin-left: 6rem; */
-    
+    width: 100%; 
     margin: 0rem;
     text-align: center;
 
@@ -1099,13 +1095,11 @@ font-size: 0.8rem;
 
   .recomendationimg img {
     width: 100%;
-
     padding: 1rem 0rem 0rem 0rem
   }
 
   .ouradvante {
     margin-left: 1.5rem;
-    /* padding: 6rem; */
     line-height: 5rem;
   }
 
@@ -1131,9 +1125,6 @@ font-size: 0.8rem;
 
     height: 100%;
     width: 100%;
-    /* left: 14rem; */
-    /* margin-left: 2.8rem; */
-    
     object-fit: cover;
 
   }
@@ -1174,10 +1165,7 @@ font-size: 0.8rem;
     margin: 0rem 1rem 0rem 1rem;
 }
 
-/* .fifthpagequestion h1{
 
-font-size: 2rem;
-} */
 
   .fifthpagecontent {
     
@@ -1217,11 +1205,9 @@ font-size: 2rem;
 
 .achievements {
   position: relative;
-  
   display: flex;
   bottom: 3.6rem;
   width: 19.5rem;
-  /* width: 20.9rem; */
   left: 1.8rem;
   height: 3.4rem;
   background-color: white;
@@ -1229,14 +1215,11 @@ font-size: 2rem;
 }
 
 .whiteroom {
-           /* padding: 0rem 1rem 0rem 1rem; */
     top: 1rem;
     margin-top: 11rem;
     position: relative;
     margin-top: 3.5rem;
     height: 23rem;
-    /* margin-left: 1rem; */
-    /* left: -1.3rem; */
     margin-left: 0rem;
     right: 0rem;
     width: 100%;
@@ -1260,8 +1243,6 @@ font-size: 2rem;
 
 .comments {
   display: flex;
-  /* justify-content: space-between; */
-  /* margin: auto; */
   flex-wrap: wrap;
   width: 100%;
   flex-direction: row;
@@ -1282,7 +1263,6 @@ font-size: 2rem;
 
 .cost{
 
-  /* margin-left: 3rem; */
   padding-left: 4rem;
 }
 .customer-testimonialbtn button{
@@ -1295,10 +1275,7 @@ font-size: 2rem;
   font-size: 1.2rem;
 }
 
-/* .recomendationimg p {
-  color: #69b99d;
-  margin-left: 2rem;
-} */
+
 }
 .muli{
   color:#4ba586
